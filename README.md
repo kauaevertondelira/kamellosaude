@@ -1,11 +1,13 @@
-# Kamello — demonstração B2B
+# Kamello demonstração atualizada em 25 de outubro de 2026
 
-Apresentação com dados fictícios de empresas, funcionários, conteúdo e cobrança. Nenhum pagamento, e-mail real ou gravação no Firebase é realizado por esta demonstração. Os dados ficam no próprio navegador e não sincronizam entre dispositivos.
+Tela de acesso atualizada conforme os pedidos da cliente. Atalhos: Usuário, Kamello e Empresas. Foram retirados os textos indicados e ampliado Um momento para você.
 
-Demonstração: https://kauaevertondelira.github.io/kamellosaude/
+O teto fixo de 20 usuários foi removido, inclusive para configurações antigas. É possível aprovar acima de 100 usuários; o volume simultâneo de produção depende de teste de carga e infraestrutura. Novas configurações usam seatLimit: 0 como campo legado sem teto fixo. O preço não foi alterado nem aprovado automaticamente.
 
-Revisão de 21/10/2026: caminho Fazer minha pausa, seleção por tempo, atalhos móveis e textos principais ampliados. Autodeclaração PCD opcional no primeiro acesso/perfil, sem laudo nem aprovação da deficiência. Preferência de exercícios adaptados ou para cadeira de rodas, sem exposição dessa escolha à empresa. Conteúdo real adaptado continua pendente; classificações e exercícios da demonstração são apenas exemplos fictícios.
+Esta pasta contém a demonstração compilada com os ajustes anteriores preservados. Não contém o backend. Dados são fictícios e locais; não há cobrança real, sincronização entre aparelhos ou envio real de e-mail.
 
-Na tela de acesso, use Participante, Administradora ou Outra empresa. Para avaliar cadastro empresarial, use somente e-mails fictícios terminados em .demo. A mensalidade R$99,90 para até 20 funcionários é uma sugestão pendente de aprovação comercial.
+Para atualizar a demonstração no repositório kamellosaude, substitua o conteúdo publicado pelos arquivos DENTRO desta pasta, incluindo assets, index.html, tour e a automação .github. O caminho de publicação foi mantido como /kamellosaude/. Não envie o ZIP privado B2B ou a assinatura privada ao repositório público. Esta entrega não efetuou publicação remota.
 
-Este repositório contém somente compilados da demonstração e a automação de publicação estática. Fonte completo, API, Android e instruções de produção ficam no pacote privado/local. A produção precisa de API HTTPS, Firebase, conta de pagamentos, conteúdo aprovado e testes finais. GitHub Pages permanece exclusivo da apresentação conforme as limitações oficiais do serviço.
+Os compilados sem referência foram retirados. O entrypoint e o chunk alterados receberam nomes novos para evitar cache antigo. Se o link continuar mostrando uma tela anterior, confira a publicação e atualize o navegador.
+
+Senha fictícia dos atalhos: KamelloDemo!2026. Use somente dados fictícios e endereços de teste terminados em .demo.
