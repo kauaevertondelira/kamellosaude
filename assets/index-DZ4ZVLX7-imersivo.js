@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./web-DORHmN4f-imersivo.js","./App-B7w0TpJ--imersivo.js","./app-CVI6_7uD-imersivo.js","./modulepreload-polyfill-B5Qt9EMX-imersivo.js","./app-C121-s7s.css","./App-5jcifwh6.css"])))=>i.map(i=>d[i]);
+import{_ as e}from"./app-CVI6_7uD-imersivo.js";import{r as t}from"./App-B7w0TpJ--imersivo.js";import"./modulepreload-polyfill-B5Qt9EMX-imersivo.js";const _=t("Share",{web:()=>e(()=>import("./web-DORHmN4f-imersivo.js"),__vite__mapDeps([0,1,2,3,4,5]),import.meta.url).then(r=>new r.ShareWeb)});export{_ as Share};
